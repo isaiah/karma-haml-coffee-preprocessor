@@ -33,12 +33,12 @@ module.exports = function(config) {
       // options passed to the haml-coffee compiler
       options: {
         namespace: "window.JST",
-        logicalMountPoint: "templates"
+        logicalPathStrip: "templates"
       },
       // Removes base and sprockets until logicalMountPath with options.logicalPathStrip
       transformLogicalPath: function(filepath) {
         var logicalPath = filepath.replace(/\.jst.hamlc/, '');
-        return logicalPath.substring(logicalPath.indexOf(options.logicalMountPoint));
+        return logicalPath.substring(logicalPath.indexOf(options.logicalPathStrip));
       }
     }
   });
