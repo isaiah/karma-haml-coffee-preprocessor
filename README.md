@@ -9,7 +9,7 @@ The easiest way is to keep `karma-haml-coffee-preprocessor` as a devDependency i
 {
   "devDependencies": {
     "karma": "~0.10",
-    "karma-haml-coffee-preprocessor": "~0.1"
+    "karma-haml-coffee-preprocessor": "~0.2"
   }
 }
 ```
