@@ -18,11 +18,11 @@
   },
   "dependencies": {
     "coffee-script": "~1.7.1",
-    "haml-coffee": "~1.14.1",
-    "through": "^2.3.4"
+    "haml-coffee": "~1.14.1"
   },
   "peerDependencies": {
     "karma": ">=0.9"
   },
+  "homepage": "https://github.com/isaiah/karma-haml-coffee-preprocessor",
   "license": "MIT"
 }
