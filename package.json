@@ -1,0 +1,28 @@
+{
+  "name": "karma-haml-coffee-preprocessor",
+  "version": "0.1.0",
+  "description": "A Karma plugin. Compile hamlc templates to javascript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaiah/karma-haml-coffee-preprocessor.git"
+  },
+  "keywords": [
+    "haml-coffee-plugin",
+    "haml-coffee-preprocessor",
+    "haml-coffee"
+  ],
+  "author": {
+    "name": "isaiah",
+    "email": "isaiah@gentoo.org"
+  },
+  "dependencies": {
+    "coffee-script": "~1.7.1",
+    "haml-coffee": "~1.14.1",
+    "through": "^2.3.4"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "license": "MIT"
+}
