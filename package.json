@@ -1,6 +1,6 @@
 {
   "name": "karma-haml-coffee-preprocessor",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Karma plugin. Compile hamlc templates to javascript",
   "main": "index.js",
   "repository": {
